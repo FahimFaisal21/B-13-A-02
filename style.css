@@ -187,3 +187,72 @@ nav .menu a{
     display: inline-flex;
     align-items: center;
 }
+
+/* About Section Related Styles */
+#about{
+    height:646px;
+    background: #1A0B2E; 
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#about-txt{
+    width:1200px;
+    height: 222px;
+    padding-top: 40px;
+    margin-left: 200px;
+    background: #1A0B2E;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; 
+}
+#about-txt h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+#about-txt p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:16px ;
+    line-height: 2;  
+}
+.txt-bottom{
+    padding-top: 15px;
+}
+.about-line {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 80px auto; 
+    width: 1200px;
+    display: block;
+}
+#about-box{
+    display: flex;
+    width: 1200px;
+    height: 94px;
+    margin-top: 80px;
+    margin-left: 200px;
+    gap:180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#box1,#box2,#box3,#box4{
+    width:240px ;
+    height:94px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:16px;
+}
+#about-box h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #00FF88;
+}
+#about-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
