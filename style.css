@@ -71,5 +71,119 @@ nav .menu a{
     margin-left: 314px;
     font-size: 16px;
     font-weight: 600;
-    gap:4px;);
+    gap:4px;
+}
+
+/* Banner Related Styles*/
+#banner{
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#banner-content{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+#banner-image-2{
+    position: absolute;
+    top: 89px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.new-badge {
+    position: absolute;
+    top: 20px;
+    margin-left: 240px;
+    background-color: #00FF88;
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);  
+    color: #1A0B2E;
+    
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 10; 
+    
+}
+.banner-txt{
+    margin-top: 40px;   
+}
+.banner-txt h1{
+    font-size: 4rem;
+    font-weight: 1500;
+    color: #FFFFFF;
+}
+.banner-txt p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 24px ;
+}
+.banner-buttons{
+    display: flex;
+    gap: 8px;
+}
+.btn-1{
+    background: linear-gradient( 30deg,
+     rgba(247, 233, 63, 1),
+     rgba(251, 9, 180, 1),
+     rgba(145, 0, 248, 1));
+
+    color: aliceblue;
+     padding: 12px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    gap:8px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 14px;
+    
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-1 {
+    animation: pulse-animation 2s infinite ease-in-out; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.btn-1:hover {
+    animation-play-state: paused; 
+    box-shadow: 0 0 20px rgba(251, 9, 180, 0.6);
+    background: linear-gradient(30deg, #ff8e5e, #ff1f8e, #9d26d1); 
+}
+.btn-2{
+     background-color: #1A0B2E;
+     color: #00FF88;
+     border: 2px solid #00FF88;
+     padding: 12px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    gap:8px;
+    display: inline-flex;
+    align-items: center;
 }
